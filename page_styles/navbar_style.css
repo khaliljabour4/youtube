@@ -1,0 +1,96 @@
+.yt_logo_section{
+  height: 100%;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ytlogo {
+    height: 33px;
+    margin-top: 4px;
+    cursor: pointer;
+  }
+  .yt-name {
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 26px;
+    position: relative;
+  }
+  .yt-name-link {
+    text-decoration: none;
+    color: black;
+  }
+  .searchbar_section{
+    height: 100%;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 450px;display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .form-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+  }
+  .search-bar{
+    width: 0;
+    border-right: none;
+    flex:1;
+    height: 34px;
+    padding-left: 10px;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    max-width: 300px;
+  }
+  .search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+  }
+  .search-button{
+    cursor: pointer;
+    width: 60px;
+    height: 38px;
+    background-color: rgb(245, 245, 245);
+    border: solid 1px rgb(192, 192, 192);
+  }
+  .search-img , .mike-img{
+    height: 20px;
+    margin-top: 3px;
+  }
+  .mike-button{
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: rgb(245, 245, 245);
+  }
+  .account-section{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+  }
+  .camera-button{
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .account-button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-left: 15px;
+  }
+  .account-img{
+    width: 35px;
+    border-radius: 50%;
+  }

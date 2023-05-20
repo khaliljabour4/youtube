@@ -1,0 +1,47 @@
+.video-container {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.video-info-section {
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.video-profil-section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.video-profil-img {
+  margin-top: 5px;
+  width: 40px;
+  border-radius: 90%;
+  height: 40px;
+}
+.video-ttl {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  color: black;
+}
+.chaine-name {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  color: gray;
+}
+.video-info {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  color: gray;
+  margin-top: -10px;
+}
+.video-ttl-container {
+  padding-left: 10px;
+  padding-top: 10px;
+}

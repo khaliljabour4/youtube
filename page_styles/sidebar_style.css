@@ -1,0 +1,85 @@
+.sidebar-section {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60px 60px 60px 60px 60px 60px 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  row-gap: 4%;
+}
+.humburger-button {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: white;
+  align-items: center;
+  height: 100%;
+}
+.home-button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  border: none;
+  background-color: white;
+  align-items: center;
+}
+.direction-button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  border: none;
+  background-color: white;
+  align-items: center;
+}
+.subs-button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  border: none;
+  background-color: white;
+}
+.original-button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  border: none;
+  background-color: white;
+}
+.music-button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  border: none;
+  background-color: white;
+}
+.library-button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  border: none;
+  background-color: white;
+}
+.home,
+.explore,
+.library {
+  margin-top: 5px;
+}
+.original,
+.subscriptions {
+  margin: 0;
+}
+.music {
+  margin-top: 5px;
+  font-size: 12px;
+}
